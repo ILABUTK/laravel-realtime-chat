@@ -27,6 +27,13 @@ $ git clone https://github.com/guilhermeslk/laravel-realtime-chat.git
 $ cd laravel-realtime-chat
 $ composer install
 ```
+
+##XPLI:: Fixing "Laravel requires the Mcrypt PHP extension."
+```>brew install homebrew/php/php56-mcrypt
+http://stackoverflow.com/questions/16830405/laravel-requires-the-mcrypt-php-extension
+
+>>had to brew unlink php7.1```
+
 ### Step 3: Configure Database
 Edit your ***database.php*** to match your local database settings.
 
@@ -81,3 +88,6 @@ $ ./realtime.sh
 ```
 
 That's it! Now you should be ready to go!
+
+
+
